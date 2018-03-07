@@ -1,0 +1,14 @@
+package com.statistics.classes;
+
+public class DriverManager {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Welcome to the program. Here we calculate the statistics for the defects");
+		
+		System.out.println("\nChoose an option to select the defect size to get the statistics: \n1. Visible 100 Defects \n2. All Defects ");
+		
+	}
+
+}

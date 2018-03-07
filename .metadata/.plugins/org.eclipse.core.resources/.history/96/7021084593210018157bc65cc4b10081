@@ -1,0 +1,8 @@
+package com.statistics.classes;
+
+
+public class DefectStatistics extends Statistics {
+	
+	
+
+}

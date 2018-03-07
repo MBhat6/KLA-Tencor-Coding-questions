@@ -1,0 +1,16 @@
+package com.statistics.classes;
+
+public class FetchStatistics {
+	
+	public double getMean() {
+		
+		
+		return 0.0;
+	}
+	
+	public double getStdDeviation() {
+		
+		return 0.0;
+	}
+
+}

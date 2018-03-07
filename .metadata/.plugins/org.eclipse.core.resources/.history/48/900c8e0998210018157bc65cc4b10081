@@ -1,0 +1,20 @@
+package com.statistics.classes;
+
+import java.util.ArrayList;
+
+public class DefectPolarityStatistics extends Statistics{
+	
+	@Override
+	public double getMean(ArrayList<Defect> defectList) {
+		
+		
+		return 0.0;
+	}
+	
+	@Override
+	public double getStdDeviation(ArrayList<Defect> defectList) {
+			
+		return 0.0;
+	}
+
+}

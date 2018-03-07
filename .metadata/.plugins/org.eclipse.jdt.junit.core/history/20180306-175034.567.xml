@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="DriverTest" project="Defect Statistics" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.statistics.junits.DriverTest" time="5.21" displayname="DriverTest" uniqueid="[engine:junit-jupiter]/[class:com.statistics.junits.DriverTest]">
+    <testcase name="test" classname="com.statistics.junits.DriverTest" time="5.21" displayname="test()" uniqueid="[engine:junit-jupiter]/[class:com.statistics.junits.DriverTest]/[method:test()]"/>
+  </testsuite>
+</testrun>

@@ -1,0 +1,11 @@
+package com.statistics.classes;
+
+public class FetchStatistics {
+	
+	public double getMean() {
+		
+		
+		return 0.0;
+	}
+
+}

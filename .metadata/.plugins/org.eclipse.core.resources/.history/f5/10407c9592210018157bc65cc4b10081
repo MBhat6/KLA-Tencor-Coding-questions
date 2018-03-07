@@ -1,0 +1,19 @@
+package com.statistics.classes;
+
+import java.util.ArrayList;
+
+public class Statistics {
+	
+	
+	public double getMean(ArrayList<Double> defectList) {
+		
+		
+		return 0.0;
+	}
+	
+	public double getStdDeviation(ArrayList<Double> defectList) {
+		
+		return 0.0;
+	}
+
+}

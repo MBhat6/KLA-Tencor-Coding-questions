@@ -1,0 +1,25 @@
+package com.stringReversal;
+
+import java.util.*;
+import com.stringReversal.ReverseString;
+
+public class DriverManager {
+
+	public static void main(String[] args) {
+		
+		//create an object of the type ReverseString
+		ReverseString myObj = new ReverseString();
+		
+		//Scanner to take user input
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("\nWelcome to the program. This program eanbles you to reverse the words in a sentence\n\n");
+		System.out.print("Please enter the string to be reversed: ");
+		
+		String str = input.nextLine();
+		
+		System.out.println("Reserved words of the string is : " + myObj.reverse(str));
+		
+	}
+
+}

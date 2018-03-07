@@ -1,0 +1,65 @@
+package com.statistics.classes;
+
+public class Defect {
+	
+	//instance variable size
+	private double size;
+	
+	//instance variable polarity
+	private double polarity;
+	
+	//instance variable roughness
+	private double roughness;
+
+	/**
+	 * method getSize
+	 * @return
+	 */
+	public double getSize() {
+		return size;
+	}
+
+	
+	/**
+	 * method setSize
+	 * @param size
+	 */
+	public void setSize(double size) {
+		this.size = size;
+	}
+
+	/**
+	 * method getPolarity
+	 * @return
+	 */
+	public double getPolarity() {
+		return polarity;
+	}
+
+	
+	/**
+	 * method setPolarity
+	 * @param size
+	 */
+	public void setPolarity(double polarity) {
+		this.polarity = polarity;
+	}
+	
+	
+	/**
+	 * method getRoughness
+	 * @return
+	 */
+	public double getRoughness() {
+		return roughness;
+	}
+
+	/**
+	 * method setRoughness
+	 * @param size
+	 */
+	public void setRoughness(double roughness) {
+		this.roughness = roughness;
+	}
+	
+}

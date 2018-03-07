@@ -1,0 +1,36 @@
+package com.statistics.classes;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+
+public class DefectSizeStatistics extends Statistics {
+	
+	private double mean = 0.0;
+	private double sum = 0.0;
+	private double num = 0.0;
+	private double stdVal = 0.0;
+	
+	DecimalFormat df = new DecimalFormat("#.###");
+	
+	public double getMean(ArrayList<Defect> defectList, int size) {
+				
+		for(Defect obj : defectList) {
+			
+			sum += obj.getSize();
+		}
+		mean = sum/size;
+		
+		df.format(mean);
+		return mean;
+	}
+	
+	public double getStdDeviation(ArrayList<Defect> defectList, int size) {
+			
+		for(Defect obj : defectList) {
+			stdVal = Math.pow((obj.getSize()- mean), 2);
+			num += stdVal;
+		}
+		return Math.sqrt(num/size);
+	}
+
+}

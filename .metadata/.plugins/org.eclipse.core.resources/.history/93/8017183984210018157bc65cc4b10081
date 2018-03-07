@@ -1,0 +1,26 @@
+package com.stringReversal.junits;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.stringReversal.classes.ReverseString;
+
+class StringReversalTest {
+
+	@Test
+	void test() {
+		//fail("Not yet implemented");
+		
+		ReverseString obj = new ReverseString();
+		
+		String input_1 = "KLA-Tencor is a great company to work with";
+		String input_2 = "";
+		String input_3 = "0";
+		
+		//assertEquals(obj.reverse(testStr), "with work to company great a is KLA-Tencor");
+		assertEquals(obj.reverse(input_2), "INVALID - No string input to reverse");
+		assertEquals(obj.reverse(input_3), "0");
+	}
+
+}

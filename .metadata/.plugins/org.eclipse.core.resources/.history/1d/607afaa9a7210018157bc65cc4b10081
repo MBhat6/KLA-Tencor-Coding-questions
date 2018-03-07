@@ -1,0 +1,50 @@
+package com.statistics.junits;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.Test;
+
+import com.statistics.classes.Defect;
+import com.statistics.classes.DefectRoughnessStatistics;
+
+class StatisticsTest {
+
+	@Test
+	void test() {
+		//fail("Not yet implemented");
+		
+		DecimalFormat df = new DecimalFormat("#.###");
+		
+		DefectRoughnessStatistics myTest = new DefectRoughnessStatistics();
+		
+		Defect first = new Defect();
+		first.setPolarity(2.3);
+		first.setSize(0.5);
+		first.setRoughness(0.56);
+		
+		Defect second = new Defect();
+		second.setPolarity(5.3);
+		second.setSize(1.5);
+		second.setRoughness(0.68);
+		
+		Defect third = new Defect();
+		third.setPolarity(1.3);
+		third.setSize(0.8);
+		third.setRoughness(0.3);
+		
+		ArrayList<Defect> myList = new ArrayList<>();
+		myList.add(first);
+		myList.add(second);
+		myList.add(third);
+		
+		System.out.println("myTest.getMean: " + (myTest.getMean(myList, myList.size()));
+		
+		assertEquals(df.format(myTest.getMean(myList, myList.size())), 1.027);
+		
+		
+	}
+
+}

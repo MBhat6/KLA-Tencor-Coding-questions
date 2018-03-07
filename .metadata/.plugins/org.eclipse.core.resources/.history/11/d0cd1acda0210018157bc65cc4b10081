@@ -1,0 +1,16 @@
+package com.statistics.classes;
+
+import java.util.ArrayList;
+
+public abstract class Statistics {
+	
+	private double mean = 0.0;
+	private double sum = 0.0;
+	private double num = 0.0;
+	
+	abstract public double getMean(ArrayList<Defect> defectList, int size);
+	
+	
+	abstract public double getStdDeviation(ArrayList<Defect> defectList, int size);
+
+}

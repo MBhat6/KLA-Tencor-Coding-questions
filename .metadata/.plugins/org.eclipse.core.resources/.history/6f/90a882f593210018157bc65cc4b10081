@@ -1,0 +1,20 @@
+package com.statistics.classes;
+
+import java.util.ArrayList;
+
+public class DefectStatistics extends Statistics {
+	
+	@Override
+	public double getMean(ArrayList<Defect> defectList) {
+		
+		
+		return 0.0;
+	}
+	
+	public double getMeanSize(ArrayList<Defect> defectList) {
+		
+		return  0.0;
+	}
+	
+
+}

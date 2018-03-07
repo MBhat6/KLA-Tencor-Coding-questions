@@ -1,0 +1,31 @@
+import java.util.Arrays;
+
+public class InsertionSort {
+
+	public static void main(String[] args) {
+
+		int[] arr = { 2, 5, 8, 1, 0, -2, 5, -8 };
+		int value;
+		int insertIdx;
+		System.out.println("The array: " + Arrays.toString(arr));
+
+		for (int index = 1; index < arr.length; index++) {
+
+			value = arr[index];
+			insertIdx = index;
+
+			System.out.println("value: " + value + " insertIdx: " + insertIdx);
+
+			while (insertIdx > 0 && (value < arr[insertIdx - 1])) {
+
+				arr[insertIdx] = arr[insertIdx - 1];
+				insertIdx = insertIdx - 1;
+			}
+			arr[insertIdx] = value;
+
+		}
+
+		System.out.println("The sorted array: " + Arrays.toString(arr));
+	}
+
+}

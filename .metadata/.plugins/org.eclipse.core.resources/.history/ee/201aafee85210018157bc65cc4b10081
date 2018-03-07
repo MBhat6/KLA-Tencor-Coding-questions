@@ -1,0 +1,11 @@
+1. This program take a use inputs
+	(in our case, we are testing the program with three inputs
+	String 1 => "KLA-Tencor is a great company to work with"
+	String 2 => "" Empty String
+	String 3 => "0")
+
+2. If the user input is null or empty, then the output received should be "INVALID - No string input to reverse"
+3. If there a valid user input, then the program splits the string into array of strings
+4. Then a for loop is used to run through half the length of array (mid-point) and it just replaces the first item of the array with the last item
+   and continues to repeat this until it reached the midpoint of the array. When the loop reached the midpoint, it will have replaced all the array items
+5. It then return the string representation of this array (using substring to get the string).

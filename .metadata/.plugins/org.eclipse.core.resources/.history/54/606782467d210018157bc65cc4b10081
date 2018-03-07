@@ -1,0 +1,21 @@
+package com.stringReversal;
+
+public class ReverseString {
+
+	//private String myStr = "";
+	
+	public String reverse(String str) {
+				
+		String[] tokens = str.trim().split(" ");
+		
+		StringBuffer sbf = new StringBuffer();
+				
+		for(int index = tokens.length-1; index >= 0; index--) {
+			
+			sbf.append(tokens[index] + " ");			
+		}
+		
+		return (sbf.toString().trim());
+	}
+	
+}

@@ -1,0 +1,16 @@
+package com.stringReversal.junits;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class StringReversal {
+
+	@Test
+	void test() {
+		//fail("Not yet implemented");
+		
+		
+	}
+
+}

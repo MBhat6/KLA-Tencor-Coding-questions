@@ -1,0 +1,20 @@
+package com.stringReversal.junits;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.stringReversal.classes.ReverseString;
+
+class StringReversalTest {
+
+	@Test
+	void test() {
+		//fail("Not yet implemented");
+		
+		ReverseString obj = new ReverseString();
+		
+		String testStr = "KLA-Tencor is a great company to work with";
+	}
+
+}

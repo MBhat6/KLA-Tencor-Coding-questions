@@ -1,0 +1,46 @@
+package com.statistics.classes;
+
+public class Properties {
+	
+	//instance variable size
+	private double size;
+	
+	//instance variable polarity
+	private double polarity;
+	
+	//instance variable roughness
+	private double roughness;
+
+	/**
+	 * method getSize
+	 * @return
+	 */
+	public double getSize() {
+		return size;
+	}
+
+	public void setSize(double size) {
+		this.size = size;
+	}
+
+	/**
+	 * method getPolarity
+	 * @return
+	 */
+	public double getPolarity() {
+		return polarity;
+	}
+
+	public void setPolarity(double polarity) {
+		this.polarity = polarity;
+	}
+
+	public double getRoughness() {
+		return roughness;
+	}
+
+	public void setRoughness(double roughness) {
+		this.roughness = roughness;
+	}
+	
+}

@@ -1,0 +1,28 @@
+package com.statistics.junits;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.ArrayList;
+
+import org.junit.jupiter.api.Test;
+
+import com.statistics.classes.Defect;
+import com.statistics.classes.DefectSizeStatistics;
+
+class MeanSizeTest {
+
+	@Test
+	void test() {
+		//fail("Not yet implemented");
+		
+		DefectSizeStatistics myTest = new DefectSizeStatistics();
+		
+		Defect first = new Defect();
+		first.setPolarity(2.3);
+		first.getSize(0.5);
+		
+		
+		ArrayList<Defect>
+	}
+
+}
